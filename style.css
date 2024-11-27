@@ -1,11 +1,23 @@
-.navbar{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ #toppart{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: coral;
+ }
+
+ #toppart img{
+    width: 50px;
+ }
+  #toppart nav ul{
     display: flex;
-    justify-content: center;
-    /* justify-content: space-between; */
-    gap: 10px;
+    gap: 30px;
     list-style: none;
-}
-.navbar li a{
-   text-decoration: none;
-   color: rgb(187, 14, 14);
-}
+
+  }
+  #toppart nav ul li a{
+    text-decoration: none;
+ }
