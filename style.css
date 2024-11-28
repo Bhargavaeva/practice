@@ -3,14 +3,21 @@
     padding: 0px;
 }
  #toppart{
+     height: 50px;
+     width: 90%;
      display: flex;
      justify-content: space-between;
      align-items: center;
      background-color: coral;
+     margin:auto;
+     border-radius: 50px;
  }
 
  #toppart img{
     width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
  }
   #toppart nav ul{
     display: flex;
@@ -20,4 +27,13 @@
   }
   #toppart nav ul li a{
     text-decoration: none;
+    
+ }
+  
+ #toppart button{
+  padding:10px ;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius:20px; ;
  }
