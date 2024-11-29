@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing:border-box;
 }
  #toppart{
      height: 50px;
@@ -37,3 +38,14 @@
   border-top-left-radius: 20px;
   border-bottom-right-radius:20px; ;
  }
+
+ #home{
+  width: 100%;
+  height:100vh;
+  border: 3px solid black;
+  background-image: url(nathan-dumlao-lbzzSTZqYoQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position:center;
+
+}
