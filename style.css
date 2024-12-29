@@ -1,28 +1,86 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
 }
-.container{
+.container .box{
+     width: 100%;
+     height: 100vh;
+     border: 2px solid black;
+}
+.box .boxx{
     width: 100%;
-    height: 100vh;
-    border: 4px solid black;
-}
-.box1 .box2{
-   width: 100%;
-   height: 80px;
-   border: 1px solid grey;   
-}
-.box1 .box3{
-    width: 100%;
-    height: 60px;
-    border: 1px solid grey;   
- }
- .box2 .logo{
-     width: 30px;
-     height: 80px;
- }
- .box2 .logo img{
-    width: 80px;
     height: 80px;
- }
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.boxx .box1{
+    width: 110px;
+    height: 80px;
+    border: 1px solid black;
+}
+.boxx .box2{
+    width: 600px;
+    height: 80px;
+    border: 1px solid black;
+}
+.boxx .box3{
+    width: 90px;
+    height: 80px;
+    border: 1px solid black;
+}
+.boxx .box4{
+    width: 90px;
+    height: 80px;
+    border: 1px solid black;
+}
+.boxx .box5{
+    width: 90px;
+    height: 80px;
+    border: 1px solid black;
+}
+.boxx .box6{
+    width: 90px;
+    height: 80px;
+    border: 1px solid black;
+}
+.boxx .box7{
+    width: 90px;
+    height: 80px;
+    border: 1px solid black;
+   
+}
+
+
+
+
+
+
+
+ /* .box2{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+     padding: 10px 20px; 
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 1.5%;
+}
+.box2:hover input{
+    width: 600px;
+}
+ .box2 input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    transition: 0.8s;
+    background: transparent; 
+}
+ .box2 a .fas{
+    color: rgb(15, 11, 11);
+    font-size: 30px;
+}  */
